@@ -64,18 +64,6 @@ body {
     gap: 10px;
 }
 
-.other-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background-color: #615458;
-    width: 58px;
-    height: 58px;
-    padding: 0.40em;
-    cursor: pointer;
-}
-
 
 .input-box {
     width: 58px;
@@ -107,7 +95,7 @@ button {
     cursor: pointer;
 }
 
-#quadrado-vazio, #quadrado-vazio-2, #quadrado-vazio-3, #quadrado-vazio-4, #quadrado-vazio-5 {
+#empty-square1, #empty-square2, #empty-square3, #empty-square4, #empty-square1 {
     display: flex;
     justify-content: center;
     align-items: center;
