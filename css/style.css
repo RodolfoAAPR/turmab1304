@@ -1,53 +1,66 @@
-html {
+html, body {
     height: 100%;
-    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 body {
     background-color: #6E5C62;
-    height: 100%;
-}
-
-.container {
-    display:flex;
-    flex-direction: column ;
-    height: 100%;
-    gap: 40px;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-.title {
-    margin: 0 150px 0 150px;
     color: white;
     font-weight: 600;
-    font-size: 4vh;
+    font-size: 2vh;
+    line-height: 6vh;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.game-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .display {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .input-box {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 4px;
     font-size: 18px;
     text-align: center;
     border-radius: 4px;
     border: 0.125em solid #4C4347;
     background-color: #6e5c62;
+    text-transform: uppercase;
+    color: white;
 }
 
 .keyboard {
@@ -57,27 +70,36 @@ body {
     align-items: center;
     gap: 7px;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.line1, .line2, .line3 {
+    display: flex;
+    gap: 5px;
 }
 
 button {
-    gap: 10px;
     font-size: 1em;
     background-color: #4C4347;
     color: white;
     border: none;
     font-weight: 500;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 
-#empty-square1, #empty-square2, #empty-square3, #empty-square4, #empty-square1 {
+#empty-square1, #empty-square2, #empty-square3, #empty-square4, #empty-square5 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    font-family: 600;
+    font-weight: 600;
     border: 7px solid #4C4347;
     color: white;
+}
+
+.btn-enter {
+    min-width: 80px;
 }

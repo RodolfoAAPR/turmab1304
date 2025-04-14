@@ -1,7 +1,7 @@
 let currentBox = 1;
 
 document.querySelectorAll('.btn, .btn-delete, .btn-enter').forEach(button => {
-    button.addEventListener('keydown', () => {
+    button.addEventListener('click', () => {
                 const buttonValue = button.textContent;
 
 
@@ -23,3 +23,7 @@ document.querySelector('.btn-delete').addEventListener('click', () => {
         }
     }
 });
+
+window.onload = function() {
+    document.getElementById('empty-square1').focus();
+  };
