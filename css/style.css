@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    font-family: 'Mitr', sans-serif;
+    overflow-y: hidden;
+}
+
+body {
+    background-color: #6E5C62;
+    height: 100%;
+}
+
+.container {
+    display:flex;
+    flex-direction: column ;
+    height: 100%;
+    gap: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.title {
+    margin: 0 150px 0 150px;
+    color: white;
+    font-weight: 600;
+    font-size: 4vh;
+}
+
+.fa-angle-up, .fa-question, .fa-chart-simple, .fa-gear {
+    display: flex;
+    justify-content: center;
+    width: 3vh;
+    height: 3vh;
+    color: #B7AEB4;
+    border: 2px solid #B7AEB4;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linha-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha-2, .linha-3, .linha-4, .linha-5, .linha-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.other-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #615458;
+    width: 58px;
+    height: 58px;
+    padding: 0.40em;
+    cursor: pointer;
+}
+
+
+.input-box {
+    width: 58px;
+    height: 58px;
+    border: 0.40em solid #4C4347;
+    cursor: pointer;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 2rem;
+}
+
+button {
+    gap: 10px;
+    font-size: 1em;
+    background-color: #4C4347;
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    border: none;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#quadrado-vazio, #quadrado-vazio-2, #quadrado-vazio-3, #quadrado-vazio-4, #quadrado-vazio-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 600;
+    border: 7px solid #4C4347;
+    color: white;
+}
