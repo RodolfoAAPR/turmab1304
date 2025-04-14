@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: 'Mitr', sans-serif;
 }
 
 body {
@@ -86,8 +87,9 @@ button {
     border: none;
     font-weight: 500;
     padding: 15px;
-    border-radius: 8px;
     cursor: pointer;
+    font-family: 'Mitr', sans-serif;
+    border-radius: 8%;
 }
 
 #empty-square1, #empty-square2, #empty-square3, #empty-square4, #empty-square5 {
